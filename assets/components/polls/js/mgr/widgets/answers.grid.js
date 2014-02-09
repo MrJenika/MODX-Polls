@@ -28,7 +28,8 @@ Polls.grid.Answers = function(config) {
 			header: _('polls.answers.votes'),
 			dataIndex: 'votes',
 			sortable: true,
-			width: 30
+			width: 30,
+			editor: { xtype: 'textfield' }
 		},{
 			header: _('polls.answers.percents'),
 			dataIndex: 'percents',
